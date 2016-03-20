@@ -277,8 +277,8 @@ void loop(){
   
   delay(1000);
   json = getData(tram_length);
-  Serial.println(json);
-  delay(1000);
+//  Serial.println(json);
+  delay(2000);
   
  
   wifiConnection();
